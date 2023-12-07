@@ -25,4 +25,5 @@ public class Joke
     {
         this.jokeText = jokeText;
     }
+
 }
