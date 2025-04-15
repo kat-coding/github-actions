@@ -6,13 +6,15 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+#A change
+
 name: Java CI with Maven
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", "release/**" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "release/**"  ]
 
 jobs:
   build:
